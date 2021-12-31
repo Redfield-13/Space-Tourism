@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../assets/crew/background-crew-mobile.jpg);
+
+}
+.nav{
+    width: 100%;
+    margin-top: 24px;
+    /* padding: 0 5.06%; */
+    /* background-color: red; */
+    height: 40px;
+    margin-bottom: 48px;
+}
+.ham{
+    float: right;
+    margin-right: 6.4%;
+    margin-top: 9px;
+}
+.logo{
+    margin-left: 6.4%;
+    width: 40px;
+    height: 40px;
+}
+.g1{
+    width: 44.26% ;
+    height: 19px;
+    margin-left: 28%;
+    margin-bottom: 35px;
+    
+}
+
+.two{
+    width: 10.24%;
+    height: 19px;
+    opacity: .25;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    margin-right: 2.3%;
+}
+
+.meet{
+    width: 78.91%;
+    height: 19px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+}
+.g5{
+    width: 87.2%;
+    height: 223px;
+    margin-left: 6.4%;
+    padding-left: 30px;
+    margin-bottom: 32px;
+}
+.do{
+    width: 90%;
+    height: 100%;
+    
+}
+.g6{
+    width: 87.2%;
+    height: 212px;
+    margin-left: 6.4%;
+
+}
+.g3{
+    width: 26.91%;
+    height: 10px;
+    margin-left: 36.697%;
+    /* background-color: aqua; */
+    margin-bottom: 32px;
+}
+
+.ov{
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7.2%;
+    opacity: 0.17;
+}
+
+
+.ov:hover{
+    cursor: pointer;
+}
+
+.ovv{
+    opacity: 1;
+}
+
+.g4{
+    width: 100%;
+    height: 170px;
+    /* background-color: blue; */
+}
+.g2{
+    width: 100%;
+    height: 54px;
+    /* background-color: red; */
+    margin-bottom: 16px;
+}
+.comm{
+    width: auto;
+    height: 18px;
+    opacity: .5;
+    /* margin-left: 33.5%; */
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.doug{
+    width: 100%;
+    height: 28px;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 27.5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.long{
+    width: 100%;
+    height: 100px;
+    font-family: 'Barlow',serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #d0d6f9;
+}
