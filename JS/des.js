@@ -19,12 +19,25 @@ pinfos.innerText = infos[pos]
 pdess.innerText = dess[pos]
 
 
+var logo = document.getElementById('logo')
+var nav  = document.getElementById('nav')
+var tog  = document.getElementById('tog')
+
+logo.addEventListener('click',function(){
+    nav.style.display = 'block'
+})
+
+tog.addEventListener('click',function(){
+    nav.style.display = 'none'
+})
 
 
 var moon = document.getElementById('moon')
 var mars = document.getElementById('mars')
 var europa = document.getElementById('europa')
 var titan = document.getElementById('titan')
+
+
 
 var selects = document.getElementsByClassName('sp')
 
@@ -66,6 +79,7 @@ pinfos.innerText = infos[pos]
 pdess.innerText = dess[pos]
 selects[pos].classList.add('select')
 })
+
 
 
 
