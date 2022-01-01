@@ -165,7 +165,7 @@ body{
     right: 0;
     overflow: hidden;
     transition: 0.5s;
-    /* display: none; */
+    display: none;
 }
 
 .link{
